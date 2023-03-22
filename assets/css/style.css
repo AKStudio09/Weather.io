@@ -280,6 +280,11 @@ body {
   0% { transform: translateY(-50%) rotate(0); }
   100% { transform: translateY(-50%) rotate(1turn); }
 }
+.search-wrapper:has(.searching)::before { display: block; }
+
+.search-field {
+  height: 80px;
+}
 
 
 
